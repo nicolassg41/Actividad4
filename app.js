@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://api.spacexdata.com/v4/launches')
+    fetch('https://rickandmortyapi.com/api/character')
         .then(response => response.json())
         .then(data => {
             const apiData = document.getElementById('apiData');
